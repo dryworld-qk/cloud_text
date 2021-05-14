@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          url: git@github.com:dryworld-qk/cloud_text.git
+          search-paths: config
+          username: 2292174382@qq.com
+          password: 968qian+968luckn
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
