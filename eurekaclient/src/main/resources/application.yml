@@ -1,0 +1,13 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: prvoider  #服务名字
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  #注册中心的地址
+  instance:
+    prefer-ip-address: true #是否将当前ip注册到 Eureka Server中
