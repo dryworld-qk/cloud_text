@@ -9,8 +9,9 @@ spring:
         git:
           uri: https://github.com/dryworld-qk/cloud_text.git
           search-paths: config
-          username: 2292174382@qq.com
-          password: 968qian+968luckn
+          username: cloud_test
+          password: 2292174382@qq.com
+          skip-ssl-validation: true
       label: master
 eureka:
   client:
